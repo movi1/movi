@@ -1,0 +1,30 @@
+/* header.css */
+.header {
+    background-color: #333; /* Background color for the header */
+  }
+  
+  .header ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items */
+  }
+  
+  .header ul li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+  }
+  
+  .nav-link {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color */
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  

@@ -1,12 +1,12 @@
 import React from 'react';
 
 
-export const About = () => {
+const About = () => {
 
-    
-  return (
-    <header>
-      <h1 className='title' color='red'>Title</h1>
-    </header>
-  );
+
+    return (
+        <>
+        </>
+    );
 }
+export default About;
