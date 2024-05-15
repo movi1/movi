@@ -6,8 +6,8 @@ const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
-            <Link className="navbar-brand" to="/">Movi's Art</Link>
-            <img src='./img/Graphics-Painting-icon.png' alt='logo' style={{ width: '100px', height: 'auto' }} />
+            <Link to="/" className="navbar-brand">Movi's Art</Link>
+            <img src='./img/Graphics-Painting-icon.png' alt='logo' style={{ width: '100px', height: 'auto' }}  name="logo" />
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
