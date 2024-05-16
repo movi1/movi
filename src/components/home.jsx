@@ -7,7 +7,8 @@ const Home = () => {
     return (
        
             <div className="home-image">
-                <img src="./img/eyes3.png" alt="image" />
+                <img src="./img/eyes-daisy-grad.png" alt="image" />
+                <p>This is some text added to the image.</p>
 
             </div>
      
