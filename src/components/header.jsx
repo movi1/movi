@@ -5,7 +5,7 @@ import '../styles/header.css';
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg transparent-navbar">
-      <img className="logo" src='./img/logo-gimp.png' alt='logo'  />
+      <img className="logo" src='./img/logo-dark.png' alt='logo'  />
       <div className="container-fluid">
 
         <Link to="/" className="navbar-brand"></Link>
