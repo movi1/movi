@@ -28,13 +28,10 @@ const Header = () => {
 
 
       <div className="container-fluid">
-        {/* <Link to="/" aria-current="page" className="navbar-brand"></Link> */}
+
 
         <div className={`nav-links ${isVisible ? 'show' : ''}`} id="navbarNav">
           <ul className="navbar-nav">
-            <li className="nav-item">
-              <Link className="nav-link" to="/" onClick={handleLinkClick} >Home</Link>
-            </li>
 
             <li className="nav-item">
               <Link className="nav-link" to="/about" onClick={handleLinkClick} >About</Link>
