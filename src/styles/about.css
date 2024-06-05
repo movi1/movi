@@ -1,0 +1,47 @@
+.about-background {
+    background-image: url('../onde.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    /* Adjust height as needed */
+    position: relative;
+    /* Ensure the container is positioned relative */
+
+}
+
+.container {
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* Center the content vertically */
+    width: 100%;
+    /* Set the content width to match the container */
+
+}
+
+.container h1 {
+    font-family: 'Gluten', sans-serif;
+    color: rgb(49, 6, 59);
+    font-weight: bold;
+}
+.container h2 {
+    font-family: 'Gluten', sans-serif;
+    color: rgb(49, 6, 59);
+    font-weight: bold;
+}
+.card-text {
+    font-size: 18px;
+}
+
+.card-body {
+    font-family: 'Gluten', sans-serif;
+    border-style: groove;
+    box-shadow: 8px 4px 8px rgba(0.897, 0.5, 5, 29);
+    color: rgb(49, 6, 59);
+
+}
+
+.card {
+    background-color: transparent;
+}
