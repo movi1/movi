@@ -1,14 +1,9 @@
 import React from 'react';
 
-const Portfolio = () => {
+const Footer = () => {
     return (
         <>
-
-
         </>
     );
-
-
-
 }
-export default Portfolio;
+export default Footer;
