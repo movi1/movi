@@ -1,0 +1,84 @@
+.about-background {
+    background-image: url('../onde.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+  
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+}
+
+.container h1, .container h2 {
+    font-family: 'Gluten', sans-serif;
+    color: rgb(49, 6, 59);
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.card-body {
+    font-family: 'Gluten', sans-serif;
+    border-style: groove;
+    box-shadow: 8px 4px 8px rgba(0.897, 0.5, 5, 29);
+    color: rgb(49, 6, 59);
+    margin: 10px 0; /* Adjusted margin for better spacing on mobile */
+    padding: 15px;
+
+}
+
+.card {
+    background-color: transparent;
+}
+
+
+/* Media queries for larger screens (iPad and PC) */
+@media (min-width: 768px) {
+    .container {
+      
+        padding: 20px;
+    }
+
+    .container h1, .container h2 {
+        font-size: 40px; /* Larger font size for bigger screens */
+    }
+
+    .card-text {
+        font-size: 18px; /* Slightly larger font for readability on larger screens */
+    }
+
+    .card-body {
+        margin: 15px 0;
+        padding: 20px; /* Adjusted padding for larger screens */
+    }
+}
+
+@media (min-width: 1024px) {
+     .container {
+         width: 70%; 
+     
+    } 
+
+    .container h1, .container h2 {
+        font-size: 30px; /* Larger font size for desktop */
+    }
+
+    .card-text {
+        font-size: 20px; /* Larger font size for desktop */
+    }
+
+    .card-body {
+        margin: 20px 0;
+        padding: 25px; /* Increased padding for desktop */
+    }
+}
