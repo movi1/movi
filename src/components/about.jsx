@@ -21,13 +21,12 @@ const About = () => {
                                     My journey as an artist began at around 13/14 years old.
                                     Since then, I've been exploring various mediums and techniques to express my creativity.
                                     I always wanted to be an artist as a child, but there was a brief detour when I thought being a nurse would be fun (spoiler: it wasn't).
-                                    Eventually, I found my way to art school, started painting on canvas with acrylics, and then, like a dramatic twist in a romance novel,
-                                    I fell head over heels for oils.
+                                    Eventually, I found my way to art school, started painting on canvas with acrylics, and then I fell in love with oils.
                                 </p>
                                 <p className="card-text">
                                     Now, I paint to enjoy myself.
                                     I'm not a full-time artist—life has a funny way of getting in the way sometimes.
-                                    But whenever I can steal a moment, you’ll find me with a brush in hand, lost in the colors and the canvas.
+                                    But whenever I can steal a moment, you’ll find me with a brush in hand or making sourdough.
                                 </p>
                             </div>
                         </div>
